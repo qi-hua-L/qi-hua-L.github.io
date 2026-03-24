@@ -3,16 +3,27 @@
 	margin:0;
 }
 header{
-	background-color:blue;
-	height:80px;
+	background-color:#231C1A;
+	background-image:url(../assets/img/background.jpeg);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:120px;
 	width:100%;
-	position:relative;
+}
+h1{
+	color:white;
 }
 header ul{
 	position:absolute;
 	right:5vw;
 	top:0;
-	line-height:80px;
+	line-height:110px;
+}
+h1{
+	position:absolute;
+	left:45px;
+	top:0;
+	line-height:60px;
 }
 header li{
 	display:inline;
@@ -25,11 +36,6 @@ header a{
 header a:hover{
 	text-decoration:underline;
 }
-h1{
-	color:yellow;
+.main{
+	background-color:yellow;
 }
-
-p{
-	color:blue;
-}
-
