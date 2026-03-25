@@ -154,12 +154,36 @@ input:focus{
 	outline:none;
 	border-color:#E0E9A3;
 }
+.menu{
+    display:none;
+}
 /* 别的设备  */
 @media screen and (max-width:768px){
+    header ul{
 	display:none;
-
-header h1{
-
+    }
+    header h1{
+        left:50%;
+        transform:translateX(-50%);
+    }
+    .menu{
+        display:block;
+        background-color:transparent;
+        color:white;
+        font-size:35px;
+        position:absolute;
+        top:15px;
+        left:20px;
+        border:none;
+        cursor:pointer;
+    }
+    .fenz {
+        flex-direction:column;
+        padding:60px 0;
+    }
+    .fenz div{
+        margin-bottom:30px;
+    }
 
 }
 
