@@ -3,12 +3,10 @@
 	margin:0;
 }
 header{
-	background-color:#231C1A;
-	background-image:url(../assets/img/background.jpeg);
-	background-repeat:no-repeat;
-	background-position:center;
-	height:120px;
+	background-color:rgba(255,255,255,0.5);
+	height:70px;
 	width:100%;
+	position:fixed;
 }
 h1{
 	color:white;
@@ -17,7 +15,7 @@ header ul{
 	position:absolute;
 	right:5vw;
 	top:0;
-	line-height:110px;
+	line-height:80px;
 }
 h1{
 	position:absolute;
@@ -37,5 +35,132 @@ header a:hover{
 	text-decoration:underline;
 }
 .main{
-	background-color:yellow;
+	color:#6495ED;
+	height:80vh;
+	background-image:url(../assets/img/back.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	}
+.main h2{
+	font-size:40px;
 }
+.main p{
+	font-size:25px;
+	margin:25px 0;
+}
+.main a{
+	color:white;
+	text-decoration:none;
+	border:1px solid #ACACAC;
+	padding:8px 17px;
+	border-radius:5px;
+}
+.slogan{
+	background-color:#485652;
+	color:white;
+	height:120px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:20px;
+	line-height:30px;
+}
+footer{
+	background-color:#000000;
+	color:white;
+	height:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:10px;
+}
+.tox{
+	display:flex;
+}
+.tox img{
+	width:50%;
+}
+.wenz{
+	width:50%;
+	background:white;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.wenz h3{
+	font-size:40px;
+}
+.wenz p{
+	line-height:40px;
+}
+.fenz{
+	display:flex;
+	background-color:#ede9db;
+	justify-content:space-between;
+	align-items:center;
+	padding:100px 180px 80px;
+}
+.fenz div{
+	width:300px;
+	text-align:center;
+}
+.fenz img{
+	width:100%;
+	border-radius:10px;
+}
+h4{
+	font-size:40px;
+	margin:20px 0;
+}
+.fenz p{
+	font-size:20px;
+	line-height:1.6em;
+}
+.test{
+	background-color:#485652;
+	color:white;
+	padding:60px 0;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.test p{
+	margin-bottom:20px
+}
+.test input,.test button{
+	background-color:transparent;
+	color:white;
+	border:1px solid #949d9a;
+	padding:10px;
+	border-radius:5px;
+}
+.test input{
+	width:200px;
+	margin-right:15px;
+}
+.test button{
+	width:80px;
+	cursor:pointer;
+}
+input::placeholder{
+	color:#DDDDDD;
+}
+input:focus{
+	outline:none;
+	border-color:#E0E9A3;
+}
+/* 别的设备  */
+@media screen and (max-width:768px){
+	display:none;
+
+header h1{
+
+
+}
+
+
